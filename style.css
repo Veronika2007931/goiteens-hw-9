@@ -131,26 +131,33 @@ color:var(--primary-text-color);
 
 .contact-link{
     color: var(--secondary-text-color);
+    display: inline-flex;
    
 }
 .email::before{
     content:"" ;
     width: 16px;
     height: 12px;
-    outline: 1px solid;
+    background-repeat: no-repeat;
     margin-right: 10px;
-    background-image: url(./images/vector/email.svg);
+    background-image: url(./images/vector/email2.svg);
     background-size: contain;
+    text-align: center;
 }
 
 .number::before{
     content:"" ;
-    width: 16px;
-    height: 12px;
-    outline: 1px solid;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
     margin-right: 10px;
     background-image: url(./images/vector/phone.svg);
+    background-size: contain;
+   
 }
+
+
+
 
 
 
